@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+div {
+  height: 50px;
+  width: 50px;
+  border: 1px black solid;
+}
+
+div:hover {
+  cursor: pointer;
+}
